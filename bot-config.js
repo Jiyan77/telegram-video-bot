@@ -3,7 +3,7 @@
 // Your Telegram Bot Token and Target Group Information
 let BOT_CONFIG = {
   // Bot Token (never share this)
-  BOT_TOKEN: "7802962867:AAGezJxqs-DKNKDdMj2XdBj2_YUueS4KPcY",
+  BOT_TOKEN: Bot.getProperty("TELEGRAM_BOT_TOKEN"),
   
   // Target Group ID where videos will be forwarded
   TARGET_GROUP_ID: "-1002300932976", 
