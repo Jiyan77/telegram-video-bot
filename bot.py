@@ -18,8 +18,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Load environment variables
-BOT_TOKEN = "7802962867:AAGezJxqs-DKNKDdMj2XdBj2_YUueS4KPcY"  # টেলিগ্রাম বট টোকেন
-TARGET_GROUP_ID = "-1002300932976"  # টার্গেট গ্রুপ আইডি
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")  # টেলিগ্রাম বট টোকেন (environment variable থেকে নেওয়া)
+TARGET_GROUP_ID = os.environ.get("TARGET_GROUP_ID", "-1002300932976")  # টার্গেট গ্রুপ আইডি
 BACKUP_CHANNEL_URL = "https://t.me/+exNiJX3B_1AzNjdh"  # ব্যাকআপ চ্যানেল লিংক
 BROADCAST_INTERVAL_HOURS = 24  # ব্রডকাস্ট মেসেজের সময়সীমা (ঘন্টায়)
 
