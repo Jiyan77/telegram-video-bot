@@ -18,7 +18,7 @@ A Telegram bot for anonymous video forwarding within group chats. The bot receiv
 
 ## Bot Settings
 
-- **Bot Token:** Already configured with your token: `7802962867:AAGezJxqs-DKNKDdMj2XdBj2_YUueS4KPcY`
+
 - **Target Group ID:** Already configured with your group ID: `-1002300932976`
 - **Backup Channel URL:** Already configured with your backup channel: `https://t.me/+exNiJX3B_1AzNjdh`
 
